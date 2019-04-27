@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>kounty countdown premium Plugin</title>
+    <meta name="description" content="Thanks for purchasing Corpoint. If you need any support, please contact with us.">
+    <meta name="author" content="TeamDhrubok">
+    <meta name="copyright" content="TeamDhrubok">
+    <link rel="shortcut icon" type="image/png" href="img/fevicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        
+        .process li ul{
+            padding-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="left-side">
+            <div class="logo">
+                <a href="http://graphchilly.com/"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="left-content">
+                <ul role="tablist">
+                    <li role="presentation" class="active"><a href="#one" aria-controls="home" role="tab" data-toggle="tab"><span><i class="fa fa-home"></i></span>Start</a></li>
+                    <li role="presentation"><a href="#two" aria-controls="home" role="tab" data-toggle="tab"><span><i class="fa fa-folder"></i></span>How to Install</a></li>
+                    <li role="presentation"><a href="#three" aria-controls="home" role="tab" data-toggle="tab"><span><i class="fa fa-code"></i></span>Options</a></li>
+                   
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2017. <a href="www.support.codeexposer.com">codeexposer</a> <span>All Rights Reserved.</span></p>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="right-content">
+                <div id="one" class="content active fade in">
+                    
+                    <h1><span>kounty</span> - JQuery Countdown Premium Plugin</h1>
+                    <div class="content-welcome">
+                        <p>
+                            kounty countdown premium Plugin
+                        </p>
+                    </div>
+                    <div class="created">
+                        <p>
+                            Created:8/2/2018
+                            <br> By: <a href="www.portfolio.codeexposer.com"> codeexposer </a>
+                            <br> Email: <a href="mailto:codeexposer@gmail.com">codeexposer@gmail.com</a>
+                            <br>
+                            <br> Thank you for Purchasing Plugin
+                        </p>
+                    </div>
+                </div>
+                <div id="two" class="content fade">
+                    <h1>How To Install</h1>
+                    <p>In the default pluggin you will not get any style. but you can choose Different Style</p>
+                    open the Downloaded file <strong>kounty_main</strong>. you will see two folder 
+                    <ul class="process">
+                        <li>
+                            1. dist
+                            
+                        </li>
+                        <li>
+                            2.docs
+                                <ul>
+                                    <li>
+                                        1.Demos
+                                    </li>
+                                    <li>
+                                        2.Documentation
+                                    </li>
+                                </ul>
+                        </li>
+                    </ul>
+                    in the dist folder you will find your plugin. Just add  kounty.js after jQuery pluggin in your file. We give you two file normal file and its minified file so that you can use one of them
+                    <strong>Note:</strong> This plugin Must need jQuery. Till now we tested with latest jQuery version.
+                    <h3>Default Structure</h3>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="label"  data-timer-date="Feb-09-2019 16:15:20" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    <h3>Style-1 Css</h3>
+                    <p>
+                        If you want our default Demo style just copoy and pase it to your style sheet
+                    </p>
+                    <pre>
+                        <xmp>
+                            .kounty-countdown  span{
+                                font-size: 20px;
+                                padding-right: 7px;
+                                margin-right: 3px;
+                            }
+                            .countdown-finished{
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                        </xmp>
+                    </pre>
+                    
+                    <h3>Enable label</h3>
+                    <p>
+                        Use our default <code>kounty-countdow</code> for default label.if You want to use this features <code>data-countdown-seperator="label"</code> to your <strong>kounty-countdow</strong>
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="label"  data-timer-date="Feb,09,2019 16:15:20" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>Enable Dots label</h3>
+                    <p>
+                        Use our default <code>kounty-countdow</code> for default label.if You want to use this features <code>data-countdown-seperator="dots"</code> to your <strong>kounty-countdow</strong>
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>Enable Dots Style</h3>
+                    <p>
+                        Just copy and pase it to get our demo style. Besides this when you Enable <code>dots</code> Seperator  By default we added a class <code>countdown-dots</code> to <strong>kounty-countdown</strong>. Now You can change any style.
+                    </p>
+                    <pre>
+                        <xmp>
+                       .countdown-dots  span{
+                        position: relative;
+                        padding-right: 10px;
+                        margin-right: 3px;
+                        font-size: 20px;
+                    }
+                    .countdown-dots  span span{
+                        display: none;
+                    }
+                    .countdown-dots span::after {
+                        content: ":";
+                        position: absolute;
+                        top: 50%;
+                        line-height: initial;
+                        right: 0;
+                        transform: translateY(-50%);
+                        }
+                     .countdown-dots span:last-child::after {
+                        display: none; 
+                    }
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>Input your date</h3>
+                    <p>
+                       Please add <code>data-timer-date=""</code> attribute in <strong>kounty-countdown</strong>.Now add Your date into <code>data-timer-date</code>
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    
+                    <h3>Input your time and date</h3>
+                    <p>
+                       Please add <code>data-timer-date=""</code> attribute in <strong>kounty-countdown</strong>.Now add Your date into <code>data-timer-date</code>
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    <h3>Input your date with ',' Seperator</h3>
+                    <p>
+                       Please add <code>data-timer-date=""</code> attribute in <strong>kounty-countdown</strong>.Now add Your date into <code>data-timer-date</code> with ',' seperator
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>Show Days Only</h3>
+                    <p>
+                       just add <code>.countdown-days</code> class insede <strong>kounty-countdown</strong> it will automatically show days only
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019">
+                            <span class="countdown-days"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>How Hours Only</h3>
+                    <p>
+                       just add <code>.countdown-hours</code> class insede <strong>kounty-countdown</strong> it will automatically show Hours only
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20">
+                            <span class="countdown-hours"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>SHow minutes Only</h3>
+                    <p>
+                       just add <code>.countdown-minutes</code> class insede <strong>kounty-countdown</strong> it will automatically show Minutes only
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20">
+                            <span class="countdown-minutes"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    <h3>SHow Seconds Only</h3>
+                    <p>
+                       just add <code>.countdown-Seconds</code> class insede <strong>kounty-countdown</strong> it will automatically show Seconds only
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20">
+                            <span class="countdown-Seconds"></span>
+                        </div>
+					
+                        </xmp>
+                    </pre>
+                    
+                    
+                    
+                    <h3>SHow Message</h3>
+                    <p>
+                       just add <code>data-countdown-message</code> and write something to Message
+                    </p>
+                    <pre>
+                        <xmp>
+                            
+                        <div class="kounty-countdown demo-countdown" data-countdown-seperator="dots"  data-timer-date="Feb,09,2019 16:15:20" data-countdown-message="Hurrah You are Done!">
+                            <span class="countdown-days"></span>
+                            <span class="countdown-hours"></span>
+                            <span class="countdown-minutes"></span>
+                            <span class="countdown-seconds"></span>
+                        </div>
+					        
+                        </xmp>
+                    </pre>
+                    
+                  
+                
+                <div id="seven" class="content fade">
+                     <h1> Footer Settings</h1>
+                     <img src="img/footer.png" alt="">
+                </div>
+            </div>
+        </div>
+   
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
